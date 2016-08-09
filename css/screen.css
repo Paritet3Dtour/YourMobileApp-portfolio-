@@ -1,0 +1,301 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a,
+.header .nav .search,
+.header .nav .button-go, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+html {
+  line-height: 1;
+  height: 100%;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+q, blockquote {
+  quotes: none;
+}
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+a img, .header .nav .search img, .header .nav .button-go img {
+  border: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+a, a:hover{text-decoration: none;}
+
+.clearfix:before,
+.clearfix:after{
+  content: " ";
+  display: table;
+}
+.clearfix:after{clear: both;}
+
+.left{float: left;}
+.right{float: right;}
+.text-right{text-align: right;}
+.text-left{text-align: left;}
+
+body {
+  font-size: 62.5%;
+  /* font-size 1em = 10px */
+  height: 100%;
+  font-family: "Arial";
+  background-color: #fff;
+}
+
+.page{
+  max-width: 1360px;
+  margin: 0 auto;
+  padding: 0 20px;
+  background: #d9d9d8 no-repeat center bottom;
+}
+
+.container{
+  max-width: 840px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.box-padding{
+  padding: 120px 0;
+}
+/* HEADER begin*/
+.header{
+  padding-top: 22px;
+  padding-bottom: 22px;
+}
+
+.logo p{
+  text-transform: uppercase;
+  float: left;
+  font: 3em Verdana, sans-serif;
+  color: #6e6e6e;
+  font-weight: 700;
+  line-height: 18px;
+  text-shadow: 0.5px 0.9px 0 rgba(255, 255, 255, 0.5);
+  padding-top: 6px;
+}
+
+.nav{
+  width: 474px;
+  float: right;
+  background: -webkit-linear-gradient(to top, #b0b0b0 0%, #cacaca 100%);
+  background: -moz-linear-gradient(to top, #b0b0b0 0%, #cacaca 100%);
+  background: -o-linear-gradient(to top, #b0b0b0 0%, #cacaca 100%);
+  background: -ms-linear-gradient(to top, #b0b0b0 0%, #cacaca 100%);
+  background: linear-gradient(to top, #b0b0b0 0%, #cacaca 100%);
+  border: 1px solid #a8a8a8;
+  -webkit-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2), inset 0 0 0 1px rgba(255, 255, 255, 0.19);
+    -moz-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2), inset 0 0 0 1px rgba(255, 255, 255, 0.19);
+      -ms-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2), inset 0 0 0 1px rgba(255, 255, 255, 0.19);
+       -o-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2), inset 0 0 0 1px rgba(255, 255, 255, 0.19);
+          box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2), inset 0 0 0 1px rgba(255, 255, 255, 0.19);
+  -webkit-border-radius: 10px;
+     -moz-border-radius: 10px;
+       -o-border-radius: 10px;
+          border-radius: 10px;
+}
+
+.nav li{
+  float: left;
+  margin-left: 35px;
+  padding: 12px 0;
+}
+
+
+
+.nav  a{
+  text-transform: ;
+  color: #6e6e6e;
+  font: 1.2em Verdana, sans-serif;
+  line-height: 18px;
+}
+
+.nav a:hover{
+  color: #fff;
+  background-color: #8f8f8f;
+  -webkit-box-shadow: 0.5px 0.9px 0 #dbdbdb;
+     -moz-box-shadow: 0.5px 0.9px 0 #dbdbdb;
+      -ms-box-shadow: 0.5px 0.9px 0 #dbdbdb;
+       -o-box-shadow: 0.5px 0.9px 0 #dbdbdb;
+          box-shadow: 0.5px 0.9px 0 #dbdbdb;
+  -webkit-border-radius: 8px;
+     -moz-border-radius: 8px;
+       -o-border-radius: 8px;
+          border-radius: 8px;
+  padding: 5px 10px;
+}
+/* HEADER end*/
+/* STORE begin*/
+.store{
+  padding: 10px 0 0 20px;
+}
+
+.iphone{
+  float: left;
+  max-width: 100%;
+  height: auto;
+}
+
+.store-menu{
+  float: right;
+  margin-top: 30px;
+}
+
+.store-item{
+  margin-right: 15px;
+  margin-top: 22px;
+}
+
+.store-item:first-child{margin-top: 0;}
+
+.store-item h5{
+  color: #656565;
+  font: 1.4em Verdana, sans-serif;
+  margin-bottom: 14px;
+  padding-left: 82px;
+}
+
+.store-item p{
+  padding: 0 0 5px 82px;
+  color: #737373;
+  font: 1.2em Verdana, sans-serif;
+}
+
+.store-icon1{
+  background: url("../img/menu-icon1.png") no-repeat center left;
+}
+
+.store-icon2{
+  background: url("../img/menu-icon2.png") no-repeat center left;
+}
+
+.store-icon3{
+  background: url("../img/menu-icon3.png") no-repeat center left;
+}
+
+.store-icon4{
+  background: url("../img/menu-icon4.png") no-repeat center left;
+}
+
+.store-button{
+  float: right;
+  margin: 30px 10px 0 0;
+}
+/* STORE end*/
+/* ABOUT begin*/
+.about{
+  padding-top: 30px;
+}
+
+.about-title{
+  text-shadow: 0.5px 0.9px 0 rgba(255, 255, 255, 0.5);
+  color: #414141;
+  font: 3em Verdana, sans-serif;
+  float: left;
+}
+
+.line{
+  height: 2px;
+  width: 570px;
+  float:right;
+  background-color: #a5a5a5;
+  margin-top: 25px;
+}
+
+.about-lorem{
+  color: #767776;
+  font: 12px Verdana, sans-serif;
+  padding-top: 60px;
+}
+
+.about-lorem :nth-child(2n){
+  padding-top: 20px;
+  background-color: blue;
+}
+
+.about-menu{
+  padding-top: 30px;
+}
+
+.about-item{
+  float:left;
+  border: 8px solid #fff;
+  margin-right: 22px;
+}
+
+.about-item:last-child{margin-right: 0;}
+
+.line2{
+  height: 2px;
+  width: 100%;
+  background-color: #a5a5a5;
+  margin-top: 25px;
+}
+/* ABOUT end*/
+/* FOOTER begin*/
+.footer{
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.footer p{
+  text-align: center;
+  color: #7b7a7a;
+  font: 1.2em Verdana, sans-serif;
+}
+
+.footer p span{
+  color: #444;
+}
+/* FOOTER end*/
+
+
+
+
